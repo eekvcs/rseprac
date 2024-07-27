@@ -1,0 +1,7 @@
+(i)  Can you determine the content of the fname_out variable?
+with the example that simhour = 6, and Home=/home/dir/:
+fname_out = '/home/dir/Ozone_2001-01-01_0006.png'
+
+(ii) What information is missing?
+Home is not defined
+simhour is not defined
