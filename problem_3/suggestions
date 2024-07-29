@@ -1,0 +1,26 @@
+Suggestions for researcher
+
+- Use a timing function to identify bottlenecks
+This is called profiling. Examples of timer functions:
+timeit
+line_profiler
+snskeviz
+pyinstrument
+
+- Vectorise your code
+Pre-define your variables in an array instead of using loops within loops if you can.
+Once your variables are in an array, you can use vectorised functions to manipulate them all at the same time instead of individone by one.
+
+- Use caching if you're running the function over and over
+You can save outputs your code has already generated if you're running it repeatedly.
+https://realpython.com/lru-cache-python/
+
+- Pre-compile your code
+you can use jit or njit from numba: https://numba.readthedocs.io/en/stable/user/jit.html
+
+- Parallelise
+You can use eg. Dask to split your code into sections and run them simultaniously. See https://docs.dask.org/en/latest/
+To use this, you need to have your code written in a way where you can split it into chunks that don't affect each other, eg. arrays insted of variables being changed in a loop
+
+For more information on how to implement these in your code, have a look at these notebooks:
+https://github.com/ARCTraining/swd6_hpp/tree/master
