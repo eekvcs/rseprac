@@ -1,0 +1,9 @@
+File storage: Will any hardware be needed for storage of data? 
+What kind of sample size are we talking about? How many people and over what time period? Text only or are images, videos and other media also included?
+
+Data:
+What data fields are required? Eg. metrics of popularity, author username, or just text? Images, videos and other attachments needed?
+
+Software:
+Need access to Twitter/X and Facebook/Meta APIs. Is there a cost associated?
+How will we filter for relevant posts? Keywords, tags, dates, location etc?
