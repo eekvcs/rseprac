@@ -4,6 +4,7 @@ Run rename_files.sh from the terminal to rename all .csv files in the folder it 
 
 ## Problem 2
 After each analysis run, researcher should run count_vals.sh script to check if any files contain less than or more than 100 values.
+In the privided files, values44 has 99 values.
 
 ## Problem 3
 Some advice to researcher is in the suggestions file.
